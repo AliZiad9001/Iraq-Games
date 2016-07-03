@@ -1,0 +1,9 @@
+      $(document).ready(function(){
+        $(".post-title").hide();
+        $(".post").hover(function(){
+          $(".post-title",this).fadeIn();
+        });
+        $(".post").mouseleave(function(){
+          $(".post-title",this).fadeOut();
+        });
+      });
