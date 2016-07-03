@@ -1,0 +1,25 @@
+.post-wrapper{
+  background-color: #fff;
+  border: 1px solid rgb(117, 117, 117);
+  padding: 5px;
+  color: #757575 !important;
+}
+.post-body {
+  display: none;
+}
+.post-title {
+  text-align: center;
+  font-size: 14px;
+  background-color: #757575;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+.post-title:hover {
+  background-color: #000;
+}
+.post-title a {
+  color: #fff;
+}
+.post-footer {
+  display: none;
+}
